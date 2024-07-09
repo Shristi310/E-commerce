@@ -1,16 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(201, 135, 50);
+    background-color: #333;
     padding: 1rem 2rem;
     align-items: center;
 }
@@ -26,7 +22,7 @@ body{
     flex: 1;
 }
 .search-bar{
-    width: 60%;
+    width: 50%;
     font-size: 1.2rem;
     padding: 0.5rem 0.75rem;
     border: none;
@@ -45,7 +41,7 @@ body{
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
-    transition: 0.35;
+    transition: 0.3s;
 }
 .nav-icons a:hover{
     color: #ddd;
@@ -54,7 +50,7 @@ body{
     margin-right: 0.5rem;
 }
 .categories{
-    background-color: burlywood;
+    background-color: #555555;
     padding: 0.5rem 2rem;
 }
 .category-links{
@@ -72,13 +68,13 @@ body{
     transition: 0.3s linear;
 }
 .category-links a:hover{
-    color: #088178;
+    color: #4dcec5;
 }
 .category-links a i{
     margin-right: 0.5rem;
 }
 .hero{
-    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/11/10/60057/shopping-07.jpg);
+    background-image: url(/hero4.png);
     height: 90vh;
     background-size: cover;
     background-position: top 25% right 0;
@@ -116,6 +112,8 @@ body{
     font-size: 1rem;
     cursor: pointer;
     transition: 0.3sec;
+    text-decoration: none;
+    color: black;
 }
 .hero button:hover{
     color: rgb(61, 161, 161);
@@ -161,7 +159,9 @@ body{
     display: flex;
     justify-content: space-around;
     gap: 1rem;
-    padding: 1rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    row-gap: 3rem;
 }
 .products h2{
     font-size: 2.5rem;
@@ -177,7 +177,7 @@ body{
     width: 25%;
     min-width: 10rem;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1rem;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05) ;
     transition: 0.3s linear;
@@ -185,6 +185,7 @@ body{
 }
 .card:hover{
     transform: translateY(-10px);
+    visibility: visible;
 }
 .card img{
     width: 100%;
@@ -221,3 +222,5 @@ body{
     color: white;
     cursor: pointer;
 }
+
+ 
